@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.time {
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-big);
+    font-weight: var(--font-weight-bold);
+    margin-left: var(--gap-medium);
+    color: var(--color-primary);
+}

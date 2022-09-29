@@ -1,0 +1,15 @@
+.title {
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-big);
+    font-weight: var(--font-weight-bold);
+    margin-top: var(--gap-big);
+    margin-bottom: var(--gap-medium);
+    color: var(--color-primary);
+    justify-self: center;
+}
+
+.img {
+    height: 10rem;
+    margin-bottom: var(--gap-big);
+    justify-self: center;
+}

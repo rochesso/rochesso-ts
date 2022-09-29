@@ -1,0 +1,33 @@
+.main {
+    display: grid;
+    width: var(--width-global);
+    text-align: center;
+    grid-template-columns: min-content var(--width-central-column) 1fr;
+}
+
+.mainLeft {
+    display: grid;
+    width: max(17vw, 15.3rem);
+    transition: width 0.2s;
+    background-color: var(--color-background-primary);
+    justify-items: center;
+    grid-auto-rows: min-content;
+}
+
+.mainLeftHidden {
+    overflow: clip;
+    width: 0;
+}
+
+.mainCentral {
+    background-color: var(--color-secondary);
+}
+
+.mainRight {
+    display: grid;
+    color: var(--color-background-primary);
+    background-color: var(--color-secondary);
+    justify-items: left;
+    grid-auto-rows: min-content;
+}
+

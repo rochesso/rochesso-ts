@@ -1,0 +1,35 @@
+.article {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+    margin: var(--gap-big);
+    padding-left: 1rem;
+    text-align: left;
+    color: var(--color-primary);
+    border-left: var(--color-primary) solid 0.3rem;
+}
+
+.title {
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-big);
+    font-weight: var(--font-weight-bold);
+    margin-top: var(--gap-extra-big);
+    margin-bottom: var(--gap-big);
+    color: var(--color-primary);
+    justify-self: center;
+}
+
+.text {
+    text-align: justify;
+    color: var(--color-background-primary);
+}
+
+.text:not(:first-child) {
+    margin-top: var(--gap-medium);
+}
+
+.img {
+    height: 15rem;
+    border-radius: 50%;
+    justify-self: center;
+}
