@@ -1,14 +1,12 @@
 .list {
-    display: grid;
-    align-content: center;
-    height: 100%;
-    list-style: none;
-    gap: max(5vh, 3rem);
+  display: grid;
+  align-content: center;
+  height: 100%;
+  list-style: none;
+  gap: max(5vh, 3rem);
 }
 
 .arrow {
-    width: 90%;
-    justify-self: center;
+  width: 90%;
+  justify-self: center;
 }
-
-

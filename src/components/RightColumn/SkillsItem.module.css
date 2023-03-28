@@ -1,14 +1,14 @@
 .skillsItem {
-    display: grid;
-    place-items: center;
+  display: grid;
+  place-items: center;
 }
 
 .skillsTitle {
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-medium);
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-medium);
 }
 
 .skillsImg {
-    height: 7rem;
+  height: 7rem;
 }

@@ -1,20 +1,20 @@
 .container {
-    display: flex;
-    justify-self: center;
+  display: flex;
+  justify-self: center;
 }
 
 .item {
-    margin-top: -1rem;
+  margin-top: -1rem;
 }
 
 .itemTitle {
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-light);
-    margin-top: -2rem;
-    color: var(--color-primary);
+  color: var(--color-primary);
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-light);
+  margin-top: -2rem;
 }
 
 .itemImg {
-    height: 8rem;
+  height: 8rem;
 }

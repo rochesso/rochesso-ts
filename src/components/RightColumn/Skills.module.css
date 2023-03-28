@@ -1,23 +1,23 @@
 .skills {
-    justify-self: center;
+  justify-self: center;
 }
 
 .skillsList {
-    display: grid;
-    padding-top: var(--gap-big);
-    list-style: none;
-    grid-gap: var(--gap-medium);
-    grid-template-columns: repeat(3, 1fr);
-    place-items: center;
+  display: grid;
+  padding-top: var(--gap-big);
+  list-style: none;
+  grid-gap: var(--gap-medium);
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
 }
 
 .rocket {
-    height: 13rem;
-    margin-top: var(--gap-big);
+  height: 13rem;
+  margin-top: var(--gap-big);
 }
 
 .rocketText {
-    font-size: calc(var(--font-size-big) * 1.3);
-    font-weight: var(--font-weight-medium);
-    color: var(--color-primary);
+  font-size: calc(var(--font-size-big) * 1.3);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-primary);
 }

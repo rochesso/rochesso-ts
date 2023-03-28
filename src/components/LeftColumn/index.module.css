@@ -1,66 +1,70 @@
 .faceSquare {
-    height: min(25vw, 15rem);
-    margin-top: var(--gap-big);
-    border-radius: 50%;
+  height: min(25vw, 15rem);
+  margin-top: var(--gap-big);
+  border-radius: 50%;
 }
 
 .name {
-    font-family: var(--font-family-secondary);
-    font-size: var(--font-size-big);
-    font-weight: var(--font-weight-medium);
-    margin-top: var(--gap-big);
-    text-align: center;
+  font-family: var(--font-family-secondary);
+  font-size: var(--font-size-big);
+  font-weight: var(--font-weight-medium);
+  margin-top: var(--gap-big);
+  text-align: center;
 }
 
 .role {
-    font-family: var(--font-family-secondary);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-light);
-    margin-top: var(--gap-small);
+  font-family: var(--font-family-secondary);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-light);
+  margin-top: var(--gap-small);
 }
 
 .about {
-    font-size: var(--font-size-small);
-    width: 80%;
-    margin-top: var(--gap-extra-big);
+  font-size: var(--font-size-small);
+  width: 80%;
+  margin-top: var(--gap-extra-big);
 }
 
 .title {
-    font-family: var(--font-family-secondary);
-    font-weight: var(--font-weight-medium);
-    width: 80%;
-    margin-top: var(--gap-big);
-    margin-bottom: var(--gap-small);
-    text-align: left;
+  font-family: var(--font-family-secondary);
+  font-weight: var(--font-weight-medium);
+  width: 80%;
+  margin-top: var(--gap-big);
+  margin-bottom: var(--gap-small);
+  text-align: left;
 }
 
-.contactPhone, .contactAddress, .contactEmail, .contactAddressCity, .copyright {
-    font-size: var(--font-size-small);
-    font-weight: var(--font-weight-light);
-    width: 80%;
-    text-align: left;
+.contactPhone,
+.contactAddress,
+.contactEmail,
+.contactAddressCity,
+.copyright {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-light);
+  width: 80%;
+  text-align: left;
 }
 
 .contactPhone {
-    margin-bottom: var(--gap-small);
+  margin-bottom: var(--gap-small);
 }
 
 .contactAddressCity {
-    margin-bottom: var(--gap-small);
+  margin-bottom: var(--gap-small);
 }
 
 .languagesContainer {
-    display: flex;
-    width: 80%;
-    gap: var(--gap-medium);
+  display: flex;
+  width: 80%;
+  gap: var(--gap-medium);
 }
 
 .languagesImg {
-    height: 4rem;
-    margin-top: var(--gap-small);
+  height: 4rem;
+  margin-top: var(--gap-small);
 }
 
 .copyright {
-    margin-top: var(--gap-big);
-    text-align: center;
+  margin-top: var(--gap-big);
+  text-align: center;
 }

@@ -1,33 +1,32 @@
 .main {
-    display: grid;
-    width: var(--width-global);
-    text-align: center;
-    grid-template-columns: min-content var(--width-central-column) 1fr;
+  display: grid;
+  grid-template-columns: min-content var(--width-central-column) 1fr;
+  text-align: center;
+  width: var(--width-global);
 }
 
 .mainLeft {
-    display: grid;
-    width: max(17vw, 15.3rem);
-    transition: width 0.2s;
-    background-color: var(--color-background-primary);
-    justify-items: center;
-    grid-auto-rows: min-content;
+  background-color: var(--color-background-primary);
+  display: grid;
+  grid-auto-rows: min-content;
+  justify-items: center;
+  transition: width 0.2s;
+  width: max(17vw, 15.3rem);
 }
 
 .mainLeftHidden {
-    overflow: clip;
-    width: 0;
+  overflow: clip;
+  width: 0;
 }
 
 .mainCentral {
-    background-color: var(--color-secondary);
+  background-color: var(--color-secondary);
 }
 
 .mainRight {
-    display: grid;
-    color: var(--color-background-primary);
-    background-color: var(--color-secondary);
-    justify-items: left;
-    grid-auto-rows: min-content;
+  background-color: var(--color-secondary);
+  color: var(--color-background-primary);
+  display: grid;
+  grid-auto-rows: min-content;
+  justify-items: left;
 }
-
