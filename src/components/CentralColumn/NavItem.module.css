@@ -1,22 +1,22 @@
 .listItem {
-    display: grid;
-    align-content: center;
-    width: min-content;
+  display: grid;
+  align-content: center;
+  width: min-content;
 }
 
 .navItem {
-    font-size: calc(var(--font-size-medium) * 0.9);
-    display: grid;
-    align-content: center;
-    width: calc(0.8vw + 2rem);
-    padding: calc(0.5vh + 2.5rem) 0;
-    transition: width 0.2s ease-in-out;
-    transform: rotate(180deg);
-    border-radius: 1.5rem 0 0 1.5rem;
-    background-color: var(--color-primary);
-    writing-mode: vertical-rl;
+  font-size: calc(var(--font-size-medium) * 0.9);
+  display: grid;
+  align-content: center;
+  width: calc(0.8vw + 2rem);
+  padding: calc(0.5vh + 2.5rem) 0;
+  transition: width 0.2s ease-in-out;
+  transform: rotate(180deg);
+  border-radius: 1.5rem 0 0 1.5rem;
+  background-color: var(--color-primary);
+  writing-mode: vertical-rl;
 }
 
 .isActive {
-    width: var(--width-central-column);
+  width: var(--width-central-column);
 }
