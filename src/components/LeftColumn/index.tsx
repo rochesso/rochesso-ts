@@ -26,8 +26,7 @@ const LeftColumn = () => {
 
       <h3 className={styles.title}>Contact</h3>
       <p className={styles.contactPhone}>(+44) 0795 101 8007</p>
-      <p className={styles.contactAddress}>50 Westminster Street</p>
-      <p className={styles.contactAddressCity}>Swinton, M27 9XW</p>
+      <p className={styles.contactAddressCity}>Manchester, UK</p>
       <a
         className={styles.contactEmail}
         href="mailto:rochesso@outlook.com"
