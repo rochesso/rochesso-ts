@@ -1,7 +1,7 @@
 .faceSquare {
+  border-radius: 50%;
   height: min(25vw, 15rem);
   margin-top: var(--gap-big);
-  border-radius: 50%;
 }
 
 .name {
@@ -21,17 +21,17 @@
 
 .about {
   font-size: var(--font-size-small);
-  width: 80%;
   margin-top: var(--gap-extra-big);
+  width: 80%;
 }
 
 .title {
   font-family: var(--font-family-secondary);
   font-weight: var(--font-weight-medium);
-  width: 80%;
-  margin-top: var(--gap-big);
   margin-bottom: var(--gap-small);
+  margin-top: var(--gap-big);
   text-align: left;
+  width: 80%;
 }
 
 .contactPhone,
@@ -41,8 +41,8 @@
 .copyright {
   font-size: var(--font-size-small);
   font-weight: var(--font-weight-light);
-  width: 80%;
   text-align: left;
+  width: 80%;
 }
 
 .contactPhone {
@@ -55,8 +55,8 @@
 
 .languagesContainer {
   display: flex;
-  width: 80%;
   gap: var(--gap-medium);
+  width: 80%;
 }
 
 .languagesImg {

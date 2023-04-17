@@ -6,8 +6,6 @@ import ukIcon from "../../assets/svg/uk-flag.svg";
 
 import styles from "./index.module.css";
 
-// type AppProps = {};
-
 const LeftColumn = () => {
   const year = new Date().getFullYear();
 

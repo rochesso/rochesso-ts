@@ -11,7 +11,7 @@
   grid-auto-rows: min-content;
   justify-items: center;
   transition: width 0.2s;
-  width: max(17vw, 15.3rem);
+  width: max(17vw, 18rem);
 }
 
 .mainLeftHidden {
@@ -29,4 +29,15 @@
   display: grid;
   grid-auto-rows: min-content;
   justify-items: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainLeft {
+    width: max(17vw, 14.8rem);
+  }
+
+  .mainLeftHidden {
+    overflow: clip;
+    width: 0;
+  }
 }
